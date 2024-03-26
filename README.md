@@ -10,3 +10,9 @@
 Longhouse86/Longhouse86 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
+# Open a file in read mode
+file_path = 'example.txt'
+with open(file_path, 'r') as file:
+    # Read the contents of the file
+    file_contents = file.read()
+    print(file_contents)
